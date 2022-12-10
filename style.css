@@ -1,0 +1,89 @@
+
+body{
+    background-color: #009788;
+    font-family: "Raleway" sans-serif;
+    text-align: center;
+    background-color: #9a8ab1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container{
+    width: 100%;
+    /* border: 3px rgb(230, 3, 3) solid; */
+}
+
+p{
+    color: #442626;
+    font-size: 10vw;
+    /* border: 3px #b3ff00 solid; */
+}
+
+#clock{
+    width: 100%;
+    /* height: 300px; */
+    /* margin: -100px 0px; */
+    text-align: center;
+    /* border: 3px rgb(55, 0, 255) solid; */
+}
+
+#progressBarContainer{
+    background-color: #ffffff;
+    border-radius: 8px;
+    transform: rotate(180deg);
+    margin-top: 2rem;
+}
+
+.buttonSection{
+    width: 100%;
+    padding: 100px 0px 150px 0px;
+    /* border: 9px #418612 solid; */
+}
+
+.roundButton{
+    border-radius: 15%;
+    background-color: #d6acac;
+    border: 0;
+    color: #264744;
+    width: 13rem;
+    font-size: 3.3rem;
+    height: 5rem;
+}
+
+.roundButton:hover{
+    background-color: #264744;
+    color: #d6acac;
+}
+
+.button1{
+    float: left;
+    width:49%;
+}
+
+.button2{
+    float: right;
+    width: 49%;
+}
+
+.selector{
+    background-color: #fff;
+    padding: .8rem 1.4rem .8rem .8rem;
+    width: 20%;
+    border-radius: .5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#seconds{
+    margin: 0 3rem;
+}
+
+#minutes{
+
+}
+
+#hours{
+    margin: 0 3rem;
+}
